@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.g.uitest.LinearLayout" >
+
+    <TextView
+        android:id="@+id/loginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="@string/plsLogin"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/usernameTtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginTextView"
+        android:layout_marginTop="56dp"
+        android:layout_toLeftOf="@+id/passWordEtext"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/usernameEtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/usernameTtext"
+        android:layout_alignBottom="@+id/usernameTtext"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/inputusername"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/passWordTtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usernameTtext"
+        android:layout_below="@+id/usernameEtext"
+        android:layout_marginTop="50dp"
+        android:text="@string/inputpwd" />
+
+    <EditText
+        android:id="@+id/passWordEtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/passWordTtext"
+        android:layout_alignBottom="@+id/passWordTtext"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="******"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/resetBtn"
+        android:layout_alignBottom="@+id/resetBtn"
+        android:layout_toLeftOf="@+id/loginTextView"
+        android:text="@string/register" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passWordEtext"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/loginTextView"
+        android:text="@string/login" />
+  
+</RelativeLayout>  
