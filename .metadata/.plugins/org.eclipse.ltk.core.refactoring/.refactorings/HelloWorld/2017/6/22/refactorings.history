@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;拨打电话&apos; into R.string.call" description="Extracts string &apos;拨打电话&apos; into R.string.call" file="/HelloWorld/res/layout/activity_main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/HelloWorld" rplc-all-java="false" rplc-all-xml="false" sel-end="1014" sel-start="1014" stamp="1496368807310" tok-esc="拨打电话" xml-attr-name="android:text"/>
+</session>
